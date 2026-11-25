@@ -23,7 +23,7 @@ A code-signed binary (`hap`) is included, so you can run it immediately without 
 
 ### Arguments (Optional)
 1. **Interval (sec)**: Loop interval between pulses (Default: `0.1`, Min: `0.01`)
-2. **Pattern ID**: Taptic Engine waveform pattern ID, typically `1` to `3` (Default: `1`)
+2. **Pattern ID**: Taptic Engine waveform pattern ID. (1 = Light, 2 = Strong Force, 3 = Mechanical Alignment, 4 = Subtle Tick) (Default: `1`)
 3. **Intensity**: Vibration strength from `0.0` to `1.0` (Default: `1.0`)
 
 ### Examples
